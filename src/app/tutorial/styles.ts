@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { COLORS } from 'constants/theme'
+import { TRANSITION } from 'constants/theme'
 
 export const Container = styled.div`
   padding: 64px;
@@ -16,6 +16,7 @@ export const Section = styled.div<{ color: string }>`
   justify-content: space-between;
   align-items: center;
   background: ${({ color }) => `linear-gradient(to left, rgba(0, 0, 0, 0.6), ${color})`};
+  border-radius: 8px;
 `
 
 export const TextContainer = styled.div`
@@ -24,6 +25,12 @@ export const TextContainer = styled.div`
   flex-direction: column;
   align-items: flex-end;
   opacity: 0.6;
+  cursor: pointer;
+  transition: ${TRANSITION.regular};
+
+  &:hover {
+    opacity: 1;
+  }
 `
 
 export const SectionTitle = styled.h3<{ color: string }>`

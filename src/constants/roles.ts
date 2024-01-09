@@ -40,7 +40,7 @@ export const ROLES: Array<Role> = [
     type: RoleType.neutral,
   },
   {
-    title: 'Jester/Fool',
+    title: 'Jester',
     description: 'Wins if they are eliminated by the town during the day phase.',
     type: RoleType.neutral,
   },

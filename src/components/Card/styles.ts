@@ -9,8 +9,8 @@ export const Container = styled.div`
   padding: 32px;
   width: 250px;
   height: 320px;
-  border-radius: 8px;
   background-color: ${COLORS.main};
+  border-radius: 4px;
   cursor: pointer;
   transition: ${TRANSITION.regular};
   opacity: 0.6;
