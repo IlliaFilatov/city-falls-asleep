@@ -1,6 +1,6 @@
-import { Role, RoleType } from 'types'
+import { IRole, RoleType } from 'types'
 
-export const ROLES: Array<Role> = [
+export const ROLES: Array<IRole> = [
   {
     title: 'Mafia member',
     description:

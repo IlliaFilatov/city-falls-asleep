@@ -4,7 +4,7 @@ export enum RoleType {
   neutral = 'Neutral',
 }
 
-export interface Role {
+export interface IRole {
   title: string
   description: string
   type: RoleType

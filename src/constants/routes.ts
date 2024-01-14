@@ -1,6 +1,6 @@
 const Routes = {
-  menuRoute: '/menu',
-  tutorialRoute: '/tutorial',
+  menuRoute: '/menu/main',
+  tutorialRoute: '/menu/tutorial',
   cityRoute: '/city',
   authRoute: '/auth',
 }

@@ -4,9 +4,14 @@ export const COLORS = {
   secondary: '#A9DFBF',
   black: '#000000',
   white: '#FFFFFF',
-  mafiaRGBA: 'rgba(120, 60, 60, 0.6)',
-  townRGBA: 'rgba(60, 120, 90, 0.6)',
-  neutralRGBA: 'rgba(120, 120, 120, 0.6)',
+  mafiaRGB: 'rgba(120, 60, 60)',
+  mafiaRGBA: 'rgba(120, 60, 60, 0.8)',
+  townRGB: 'rgba(60, 120, 90)',
+  townRGBA: 'rgba(60, 120, 90, 0.8)',
+  neutralRGB: 'rgba(120, 120, 120)',
+  neutralRGBA: 'rgba(120, 120, 120, 0.8)',
+  darkRGBA: 'rgba(0, 0, 0, 0.9)',
+  lightRGBA: 'rgba(0, 0, 0, 0.2)',
 }
 
 export const TRANSITION = {

@@ -15,7 +15,7 @@ export const Section = styled.div<{ color: string }>`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background: ${({ color }) => `linear-gradient(to left, rgba(0, 0, 0, 0.6), ${color})`};
+  background: ${({ color }) => `linear-gradient(to left, rgba(0, 0, 0, 0.8), ${color})`};
   border-radius: 8px;
 `
 

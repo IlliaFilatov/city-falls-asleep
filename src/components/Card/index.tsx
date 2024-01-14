@@ -2,11 +2,11 @@
 
 import { useEffect, useState } from 'react'
 import { Container, RoleTitle, RoleDescription } from './styles'
-import { CardProps } from './props'
+import { ICardProps } from './props'
 import { RoleType } from 'types'
 import { COLORS } from 'constants/theme'
 
-export const Card: React.FC<CardProps> = ({ title, description, type }) => {
+export const Card: React.FC<ICardProps> = ({ title, description, type }) => {
   const [color, setColor] = useState(COLORS.white)
 
   useEffect(() => {

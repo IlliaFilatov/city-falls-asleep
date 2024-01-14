@@ -1,6 +1,6 @@
 import { RoleType } from 'types'
 
-export interface CardProps {
+export interface ICardProps {
   title: string
   description: string
   type: RoleType
