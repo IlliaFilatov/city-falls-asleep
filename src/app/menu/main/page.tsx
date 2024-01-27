@@ -12,7 +12,7 @@ export default function Menu() {
   return (
     <Container>
       <MenuOptionsContainer>
-        <MenuOption href={Routes.tutorialRoute}>Create room</MenuOption>
+        <MenuOption href={Routes.roomRoute('123')}>Create room</MenuOption>
         <MenuOption href={Routes.tutorialRoute}>Join room</MenuOption>
         <MenuOption href={Routes.tutorialRoute}>Tutorial</MenuOption>
       </MenuOptionsContainer>

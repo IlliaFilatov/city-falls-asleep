@@ -21,6 +21,8 @@ const Layout: React.FC<IMenuLayoutProps> = ({ children }) => {
     [pathname],
   )
 
+  const showLogo = useMemo(() => pathname === Routes.menuRoute, [pathname])
+
   const controlBtnHandler = () => {
     if (pathname === Routes.menuRoute) {
       switchTheme()
@@ -47,7 +49,7 @@ const Layout: React.FC<IMenuLayoutProps> = ({ children }) => {
           alt='Cityscape'
         />
         <BackgroundOverlay />
-        <Logo className={font.className}>City falls asleep</Logo>
+        {showLogo ? <Logo className={font.className}>City falls asleep</Logo> : null}
       </BgContainer>
       {children}
       <ControlBtn onClick={controlBtnHandler}>{controlBtnLabel}</ControlBtn>
